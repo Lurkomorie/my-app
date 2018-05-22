@@ -11,7 +11,7 @@
 
 .about-page {
   min-height: 27.5em;
-  background-image: url('../img/about/about.png');
+  background-image: url('../../img/about/about.png');
 }
 
 .about-page .wrapper-overlay {
@@ -85,7 +85,7 @@ p {
   align-items: center;
   justify-align: center;
   height: 335px;
-  background: url('../img/about/partnership.png') no-repeat 50% 50%;
+  background: url('../../img/about/partnership.png') no-repeat 50% 50%;
   color: #ffffff;
   font-size: 36px;
   font-weight: 300;
@@ -120,11 +120,11 @@ p {
 }
 
 .eye-icon {
-  background: url('../img/about/eye.png') no-repeat 0% 0%;
+  background: url('../../img/about/eye.png') no-repeat 0% 0%;
 }
 
 .cup-icon {
-  background: url('../img/about/cup.png') no-repeat 0% 0%;
+  background: url('../../img/about/cup.png') no-repeat 0% 0%;
 }
 
 .legal-features-container {
@@ -156,7 +156,7 @@ p {
 }
 
 .experience {
-  background: url('../img/about/bg-dark.png') no-repeat 50% 50%;
+  background: url('../../img/about/bg-dark.png') no-repeat 50% 50%;
   background-size: auto 266px;
 }
 
@@ -237,15 +237,15 @@ p {
 }
 
 .hand-icon {
-  background-image: url(../img/about/hand-icon.png);
+  background-image: url(../../img/about/hand-icon.png);
 }
 
 .list-icon {
-  background-image: url(../img/about/list-icon.png);
+  background-image: url(../../img/about/list-icon.png);
 }
 
 .search-icon {
-  background-image: url(../img/about/search-icon.png);
+  background-image: url(../../img/about/search-icon.png);
 }
 
 @media (max-width: 1275px) {

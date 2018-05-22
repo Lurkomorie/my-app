@@ -1,10 +1,12 @@
 import * as React from 'react';
+import * as CssModules from 'react-css-modules';
+const styles = require('./about.css');
 
-export default class AboutPage extends React.Component {
+class AboutPage extends React.Component {
     public render() {
         return (
             <div>
-                <section className="about">
+                <section styleName="about">
                     <div className="container about-container">
                         <div className="about-img-right">
                             <img src={require('../../img/about/logo.png')}/>
@@ -140,4 +142,6 @@ export default class AboutPage extends React.Component {
         );
     }
 }
+
+export default CssModules(AboutPage, styles);
 

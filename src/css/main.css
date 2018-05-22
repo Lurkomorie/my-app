@@ -6,7 +6,7 @@
 @import "clients.css";
 @import "services-types.css";
 @import "services-slider.css";
-@import "about.css";
+@import "../components/about/about.css";
 @import "contacts.css";
 @import "card.css";
 @import "form.css";
