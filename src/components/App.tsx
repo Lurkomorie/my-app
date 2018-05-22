@@ -1,7 +1,6 @@
 // app.tsx
 
 import * as React from 'react';
-import '../App.css';
 import Header from "./common/Header";
 import {Main} from './Main';
 

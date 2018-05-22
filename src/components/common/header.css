@@ -101,7 +101,7 @@
   font-size: 1.5em;
   padding-left: 2.2em;
   background: no-repeat left center;
-  background-image: url('../img/phone-icon.svg');
+  background-image: url('../../img/phone-icon.svg');
   background-size: auto 98%;
   white-space: nowrap;
   color: #ffffff;
@@ -111,7 +111,7 @@
 
 .header-phone:hover {
   color: #77ad2f;
-  background-image: url('../img/phone-icon-hover.svg');
+  background-image: url('../../img/phone-icon-hover.svg');
 }
 
 .header-social {
@@ -135,27 +135,27 @@
 }
 
 .header-social .vk {
-  background-image: url('../img/social-icon/vk-icon.svg');
+  background-image: url('../../img/social-icon/vk-icon.svg');
 }
 
 .header-social .vk:hover {
-  background-image: url('../img/social-icon/vk-icon-hover.svg');
+  background-image: url('../../img/social-icon/vk-icon-hover.svg');
 }
 
 .header-social .fb {
-  background-image: url('../img/social-icon/fb-icon.svg');
+  background-image: url('../../img/social-icon/fb-icon.svg');
 }
 
 .header-social .fb:hover {
-  background-image: url('../img/social-icon/fb-icon-hover.svg');
+  background-image: url('../../img/social-icon/fb-icon-hover.svg');
 }
 
 .header-social .inst {
-  background-image: url('../img/social-icon/inst-icon.svg');
+  background-image: url('../../img/social-icon/inst-icon.svg');
 }
 
 .header-social .inst:hover {
-  background-image: url('../img/social-icon/inst-icon-hover.svg');
+  background-image: url('../../img/social-icon/inst-icon-hover.svg');
 }
 
 @media (max-width: 1400px) {
@@ -245,7 +245,7 @@
     display: inline-block;
     width: 40px;
     height: 30px;
-    background: url(../img/menu-icon.png) no-repeat 50% 50%;
+    background: url(../../img/menu-icon.png) no-repeat 50% 50%;
     margin-right: 15px;
   }
 

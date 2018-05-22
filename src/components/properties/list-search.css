@@ -419,7 +419,7 @@ select.filter-field {
   font-style: normal;
   width: 19px;
   height: 17px;
-  background: url('../img/list-search/icon-foto.png') no-repeat 50% 50%;
+  background: url('../../img/list-search/icon-foto.png') no-repeat 50% 50%;
 }
 
 .mobile-show,

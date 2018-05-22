@@ -50,11 +50,11 @@
 
 .main-page {
   min-height: 39em;
-  background-image: url('../img/top-slider/sl1.png');
+  background-image: url('../../img/top-slider/sl1.png');
 }
 
 .inner-page {
-  background-image: url('../img/contacts/bg.png');
+  background-image: url('../../img/contacts/bg.png');
   background-size: auto 100%;
 }
 

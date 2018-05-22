@@ -122,15 +122,15 @@
 }
 
 .modal-form-name {
-  background-image: url('../img/form/name-icon.png');
+  background-image: url('../../img/form/name-icon.png');
 }
 
 .modal-form-phone {
-  background-image: url('../img/form/phone-icon.png');
+  background-image: url('../../img/form/phone-icon.png');
 }
 
 .modal-form-mail {
-  background-image: url('../img/form/mail-icon.png');
+  background-image: url('../../img/form/mail-icon.png');
 }
 
 .modal-form-comment:focus,
@@ -185,7 +185,7 @@ textarea.modal-form-comment:-ms-input-placeholder {
   top: 0;
   right: 0;
   font-size: 0;
-  background: url('../img/form/icon_close.svg') no-repeat 50% 50%;
+  background: url('../../img/form/icon_close.svg') no-repeat 50% 50%;
   background-size: auto 20px;
   z-index: 2;
   cursor: pointer;

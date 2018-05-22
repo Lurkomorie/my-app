@@ -99,27 +99,27 @@
 }
 
 .place-for-restaurant {
-  background-image: url('../img/services/rent1.png');
+  background-image: url('../../img/services/rent1.png');
 }
 
 .restaurant-active {
-  background-image: url('../img/services/rent2.png');
+  background-image: url('../../img/services/rent2.png');
 }
 
 .dining-rooms {
-  background-image: url('../img/services/rent3.png');
+  background-image: url('../../img/services/rent3.png');
 }
 
 .place-restaurant-active {
-  background-image: url('../img/services/place1.png');
+  background-image: url('../../img/services/place1.png');
 }
 
 .place-free {
-  background-image: url('../img/services/place2.png');
+  background-image: url('../../img/services/place2.png');
 }
 
 .biz-buy {
-  background-image: url('../img/services/biz1.jpg');
+  background-image: url('../../img/services/biz1.jpg');
 }
 
 @media (max-width: 1000px) {
@@ -134,7 +134,7 @@
   }
 
   .biz-buy {
-    background-image: url('../img/services/biz.png');
+    background-image: url('../../img/services/biz.png');
   }
 
   .services-descr {

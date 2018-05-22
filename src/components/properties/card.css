@@ -110,43 +110,43 @@
 }
 
 .icon-floor {
-  background-image: url('../img/card/floor.png');
+  background-image: url('../../img/card/floor.png');
 }
 
 .icon-conditions {
-  background-image: url('../img/card/conditions.png');
+  background-image: url('../../img/card/conditions.png');
 }
 
 .icon-dining-room {
-  background-image: url('../img/card/dining-room.png');
+  background-image: url('../../img/card/dining-room.png');
 }
 
 .icon-furniture {
-  background-image: url('../img/card/furniture.png');
+  background-image: url('../../img/card/furniture.png');
 }
 
 .icon-outfit {
-  background-image: url('../img/card/outfit.png');
+  background-image: url('../../img/card/outfit.png');
 }
 
 .icon-elec {
-  background-image: url('../img/card/elec.png');
+  background-image: url('../../img/card/elec.png');
 }
 
 .icon-roof {
-  background-image: url('../img/card/roof.png');
+  background-image: url('../../img/card/roof.png');
 }
 
 .icon-volume {
-  background-image: url('../img/card/volume.png');
+  background-image: url('../../img/card/volume.png');
 }
 
 .icon-size {
-  background-image: url('../img/card/size.png');
+  background-image: url('../../img/card/size.png');
 }
 
 .icon-fin {
-  background-image: url('../img/card/fin.png');
+  background-image: url('../../img/card/fin.png');
 }
 
 .card-info-subtitle {
@@ -172,18 +172,18 @@
 }
 
 .icon-plus-1 {
-  background-image: url('../img/card/plus-1.png');
+  background-image: url('../../img/card/plus-1.png');
   padding-left: 50px;
 }
 
 .icon-plus-2 {
-  background-image: url('../img/card/plus-2.png');
+  background-image: url('../../img/card/plus-2.png');
   padding-left: 65px;
   background-position-x: 0;
 }
 
 .icon-plus-3 {
-  background-image: url('../img/card/plus-3.png');
+  background-image: url('../../img/card/plus-3.png');
   padding-left: 70px;
 }
 

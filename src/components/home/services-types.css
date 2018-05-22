@@ -52,20 +52,20 @@
 .rent.services-type-icon {
   width: 100px;
   margin-right: 35px;
-  background-image: url('../img/types/icon-1.png');
+  background-image: url('../../img/types/icon-1.png');
 }
 
 .pass.services-type-icon {
-  background-image: url('../img/types/icon-2.png');
+  background-image: url('../../img/types/icon-2.png');
   margin: 0 30px;
 }
 
 .rent-space {
-  background-image: url('../img/types/type.png');
+  background-image: url('../../img/types/type.png');
 }
 
 .pass-space {
-  background-image: url('../img/types/type.png');
+  background-image: url('../../img/types/type.png');
 }
 
 @media (max-width: 1275px) {

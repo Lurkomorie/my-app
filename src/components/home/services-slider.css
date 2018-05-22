@@ -32,7 +32,7 @@
 }
 
 .sr-sl-1 {
-  background-image: url('../img/services-slider/1.png');
+  background-image: url('../../img/services-slider/1.png');
 }
 
 @-webkit-keyframes loader {
@@ -115,12 +115,12 @@
 
 .services-slider-prev {
   left: 40px;
-  background-image: url('../img/services-slider/prev.png');
+  background-image: url('../../img/services-slider/prev.png');
 }
 
 .services-slider-next {
   right: 40px;
-  background-image: url('../img/services-slider/next.png');
+  background-image: url('../../img/services-slider/next.png');
 }
 
 @media (max-width: 1400px) {

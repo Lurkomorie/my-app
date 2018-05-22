@@ -30,19 +30,19 @@
 }
 
 .contacts-adress {
-  background-image: url(../img/contacts/location-icon.png);
+  background-image: url(../../img/contacts/location-icon.png);
 }
 
 .contacts-phone {
-  background-image: url(../img/contacts/phone-icon.png);
+  background-image: url(../../img/contacts/phone-icon.png);
 }
 
 .contacts-location {
-  background-image: url(../img/contacts/location-icon.png);
+  background-image: url(../../img/contacts/location-icon.png);
 }
 
 .contacts-mail {
-  background-image: url(../img/contacts/mail-icon.png);
+  background-image: url(../../img/contacts/mail-icon.png);
 }
 
 .breadcrumbs-list {
