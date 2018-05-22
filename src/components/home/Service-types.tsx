@@ -1,8 +1,6 @@
 import * as React from "react";
 
 export default class ServicesTypes extends React.Component {
-
-
   public render() {
     return (
       <section className="services-types">

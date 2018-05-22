@@ -2,16 +2,16 @@
 
 import * as React from 'react';
 import '../App.css';
+import Header from "./common/Header";
+import {Main} from './Main';
+
+import Footer from "./common/Footer";
 
 
-class App extends React.Component<any,any> {
-  public render() {
-    return (
-      <div>
-          {this.props.children}
-      </div>
-    );
-  }
-}
-
-export default App;
+export const App = (props : any) => (
+    <div>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </div>
+)
