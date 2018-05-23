@@ -9,6 +9,15 @@
   opacity: 0.99;
 }
 
+.about-page {
+  min-height: 27.5em;
+  background-image: url('../../img/about/about.png');
+}
+
+.about-page .wrapper-overlay {
+  min-height: 27.5em;
+}
+
 .top-section-text-block {
   display: flex;
   flex-direction: column;

@@ -1,17 +1,21 @@
-import * as React from "react";
+/* tslint:disable */
+import * as React from 'react';
+
+const servicesS = require('./services-types.css');
+const main = require('../../css/main.css');
 
 export default class ServicesTypes extends React.Component {
   public render() {
     return (
-      <section className="services-types">
-        <div className="container services-types-list">
-          <div className="services-type rent-space">
-            <i className="rent services-type-icon"/>
-            <span className="services-type-title">Хочу снять/купить<br/> помещение</span>
+      <section className={servicesS['services-types']}>
+        <div className={`${servicesS['services-types-list']} ${main['container']}`}>
+          <div className={`${servicesS['services-type']} ${servicesS['rent-space']}`}>
+            <i className={`${servicesS['rent']} ${servicesS['services-type-icon']}`}/>
+            <span className={servicesS['services-type-title']}>Хочу снять/купить<br/> помещение</span>
           </div>
-          <div className="services-type pass-space">
-            <i className="pass services-type-icon"/>
-            <span className="services-type-title">Сдать в аренду или продать помещение, бизнес</span>
+          <div className={`${servicesS['services-type']} ${servicesS['pass-space']}`}>
+              <i className={`${servicesS['pass']} ${servicesS['services-type-icon']}`}/>
+            <span className={servicesS['services-type-title']}>Сдать в аренду или продать помещение, бизнес</span>
           </div>
         </div>
       </section>

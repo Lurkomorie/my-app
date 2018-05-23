@@ -1,29 +1,33 @@
-import * as React from "react";
+/* tslint:disable */
+import * as React from 'react';
+
+const servicesS = require('./services.css');
+const main = require('../../css/main.css');
 
 const Rent = () => {
   return (
-    <div className="services-subsection rent">
-      <div className="services-subsection-title">Аренда</div>
-      <div className="services-item place-for-restaurant">
-        <div className="services-info">
-          <div className="services-title">Помещение под рестораны</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+      <div className={`${servicesS['services-subsection']} ${servicesS['rent']}`}>
+      <div className={servicesS['services-subsection-title']}>Аренда</div>
+        <div className={`${servicesS['services-item']} ${servicesS['place-for-restaurant']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Помещение под рестораны</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
       </div>
-      <div className="services-item restaurant-active">
-        <div className="services-info">
-          <div className="services-title">Готовые рестораны</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+        <div className={`${servicesS['services-item']} ${servicesS['restaurant-active']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Готовые рестораны</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
       </div>
-      <div className="services-item dining-rooms">
-        <div className="services-info">
-          <div className="services-title">Столовые на предприятиях</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+        <div className={`${servicesS['services-item']} ${servicesS['dining-rooms']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Столовые на предприятиях</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
@@ -34,20 +38,20 @@ const Rent = () => {
 
 const Place = () =>{
   return (
-    <div className="services-subsection place">
-      <div className="services-subsection-title">Покупка помещения в собственность</div>
-      <div className="services-item place-restaurant-active">
-        <div className="services-info">
-          <div className="services-title">Готовый ресторан</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+      <div className={`${servicesS['services-subsection']} ${servicesS['place']}`}>
+      <div className={servicesS['services-subsection-title']}>Покупка помещения в собственность</div>
+          <div className={`${servicesS['services-item']} ${servicesS['place-restaurant-active']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Готовый ресторан</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
       </div>
-      <div className="services-item place-free">
-        <div className="services-info">
-          <div className="services-title">Помещение свободного назначения</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+          <div className={`${servicesS['services-item']} ${servicesS['place-free']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Помещение свободного назначения</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
@@ -58,12 +62,12 @@ const Place = () =>{
 
 const Biz = () => {
   return (
-    <div className="services-subsection biz">
-      <div className="services-subsection-title">Покупка бизнеса</div>
-      <div className="services-item biz-buy">
-        <div className="services-info">
-          <div className="services-title">Покупка бизнеса</div>
-          <div className="services-descr">В эту категорию относятся помещения в которых нет мебели и
+    <div className={`${servicesS['services-subsection']} ${servicesS['biz']}`}>
+      <div className={servicesS['services-subsection-title']}>Покупка бизнеса</div>
+        <div className={`${servicesS['services-item']} ${servicesS['biz-buy']}`}>
+        <div className={servicesS['services-info']}>
+          <div className={servicesS['services-title']}>Покупка бизнеса</div>
+          <div className={servicesS['services-descr']}>В эту категорию относятся помещения в которых нет мебели и
             оборудования.
           </div>
         </div>
@@ -75,9 +79,9 @@ const Biz = () => {
 export default class Services extends React.Component {
   public render () {
     return (
-      <section className="services">
-        <div className="container">
-          <div className="services-list">
+      <section className={servicesS['services']}>
+        <div className={main['container']}>
+          <div className={servicesS['services-list']}>
             <Rent/>
             <Place/>
             <Biz/>

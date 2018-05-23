@@ -1,16 +1,4 @@
 @import "./normalize.css";
-@import "../components/common/header.css";
-@import "../components/common/top-section.css";
-@import "../components/home/services.css";
-@import "../components/home/offers.css";
-@import "../components/about/clients.css";
-@import "../components/home/services-types.css";
-@import "../components/home/services-slider.css";
-@import "../components/contact/contacts.css";
-@import "../components/properties/card.css";
-@import "../components/common/form.css";
-@import "../components/properties/list-search.css";
-@import "../components/common/footer.css";
 
 body {
   font-family: 'Open Sans', sans-serif;

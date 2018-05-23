@@ -380,6 +380,19 @@ select.filter-field {
   transform: translateX(-80%) translateZ(0px);
 }
 
+.icon-dining-room {
+  background-image: url('../../img/card/dining-room.png');
+}
+
+.card-info-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    background: no-repeat left center;
+}
+
 .item-slider {
   flex: 1;
   margin: 0;
